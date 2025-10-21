@@ -45,6 +45,7 @@ O objetivo é oferecer uma maneira simples e eficiente de acompanhar a quantidad
 ---
 
 ## 🏗️ Estrutura do Projeto
+```md
 📂 Itema/
 ├─ 📁 Models/ → Modelos SwiftData (Item, Categoria, Histórico)
 ├─ 📁 Views/ → Telas SwiftUI (Listas, Detalhes, Edição)
@@ -52,3 +53,4 @@ O objetivo é oferecer uma maneira simples e eficiente de acompanhar a quantidad
 ├─ 📁 Services/ → Notificações, relatórios e utilitários
 ├─ 📁 Resources/ → Ícones, assets e strings
 └─ 📄 ItemaApp.swift → Ponto de entrada da aplicação
+```
