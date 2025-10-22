@@ -24,6 +24,12 @@ O objetivo é oferecer uma maneira simples e eficiente de acompanhar a quantidad
 
 ---
 
+## 📱 Protótipo
+
+Acesse o protótipo no [figma](https://www.figma.com/design/HPXK23hGDdvRRIlDCpJLsr/App-Estoque?node-id=63-764&t=w5bIR2qHfUPG4Uf6-1).
+
+---
+
 ## 🧠 Tecnologias Utilizadas
 
 | Tecnologia | Função |
