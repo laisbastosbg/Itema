@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4216DF182EB3A08300A6D80E /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216DF172EB3A08300A6D80E /* ActionButtonView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0BE36F782EA7FE9800A3F48C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BE36F672EA7FE9700A3F48C /* Itema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itema.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE36F672EA7FE9700A3F48C /* Itema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Itema.app; path = "/Users/iredefbmac_20/Desktop/PedroJorge/Itema/build/Debug-iphoneos/Itema.app"; sourceTree = "<absolute>"; };
+		0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ItemaTests.xctest; path = "/Users/iredefbmac_20/Desktop/PedroJorge/Itema/build/Debug-iphoneos/Itema.app/PlugIns/ItemaTests.xctest"; sourceTree = "<absolute>"; };
+		0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ItemaUITests.xctest; path = "/Users/iredefbmac_20/Desktop/PedroJorge/Itema/build/Debug-iphoneos/ItemaUITests-Runner.app/PlugIns/ItemaUITests.xctest"; sourceTree = "<absolute>"; };
+		4216DF172EB3A08300A6D80E /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,21 +80,11 @@
 		0BE36F5E2EA7FE9700A3F48C = {
 			isa = PBXGroup;
 			children = (
+				4216DF172EB3A08300A6D80E /* ActionButtonView.swift */,
 				0BE36F692EA7FE9700A3F48C /* Itema */,
 				0BE36F7A2EA7FE9800A3F48C /* ItemaTests */,
 				0BE36F842EA7FE9800A3F48C /* ItemaUITests */,
-				0BE36F682EA7FE9700A3F48C /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		0BE36F682EA7FE9700A3F48C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0BE36F672EA7FE9700A3F48C /* Itema.app */,
-				0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */,
-				0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +191,7 @@
 			mainGroup = 0BE36F5E2EA7FE9700A3F48C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0BE36F682EA7FE9700A3F48C /* Products */;
+			productRefGroup = 0BE36F5E2EA7FE9700A3F48C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -236,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4216DF182EB3A08300A6D80E /* ActionButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
