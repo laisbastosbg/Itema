@@ -34,10 +34,10 @@ struct ContentView: View {
                 
                 // Botão que simula o "Salvar Registro"
                 Button("Simular Registro de Empréstimo") {
-                    // 1. Lógica de salvar
+                    // 1. Lógica de salvar 
                     
                     // 2. Navega para a tela de confirmação
-                    // Usamos uma "tag" de texto para identificar o destino
+                    // Usa uma "tag" de texto para identificar o destino
                     navigationPath.append("Confirmacao")
                 }
                 .buttonStyle(.borderedProminent)
