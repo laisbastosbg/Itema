@@ -79,11 +79,11 @@ git pull origin develop
 
 3. Crie uma branch de trabalho seguindo o padrão:
 
-**Padrão recomendado de nome de branch:** `feature/<nome-da-task>`
+**Padrão recomendado de nome de branch:** `
 
 Exemplos:
 
-```sh
+```shfeat
 git checkout -b feature/login-screen
 ```
 
