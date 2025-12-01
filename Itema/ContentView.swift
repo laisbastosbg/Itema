@@ -1,24 +1,15 @@
-//
-//  ContentView.swift
-//  Itema
-//
-//  Created by Lais Godinho on 21/10/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        // Usando o componente TagCard 
+        TagCard(tag: TagCardViewStockTag(imageName: "iconeDaTag", name: "Nome da Tag"))
+            .padding() // Espaçamento opcional
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
