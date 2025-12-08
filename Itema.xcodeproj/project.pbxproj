@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81698A842EE74539001B2D82 /* LoanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81698A832EE74539001B2D82 /* LoanConfirmationView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0BE36F782EA7FE9800A3F48C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		0BE36F672EA7FE9700A3F48C /* Itema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81698A832EE74539001B2D82 /* LoanConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		0BE36F5E2EA7FE9700A3F48C = {
 			isa = PBXGroup;
 			children = (
+				81698A832EE74539001B2D82 /* LoanConfirmationView.swift */,
 				0BE36F692EA7FE9700A3F48C /* Itema */,
 				0BE36F7A2EA7FE9800A3F48C /* ItemaTests */,
 				0BE36F842EA7FE9800A3F48C /* ItemaUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81698A842EE74539001B2D82 /* LoanConfirmationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
