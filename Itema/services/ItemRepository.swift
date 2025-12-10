@@ -2,7 +2,7 @@
 //  ItemRepository.swift
 //  Itema
 //
-//  Created by iredefbmac_19 on 10/11/25.
+//  Created by viredefbmac_19 on 10/11/25.
 //
 
 import Foundation
@@ -27,28 +27,16 @@ final class ItemRepository {
 
     func add(_ item: DataItem) {
         context.insert(item)
-        do {
-            try context.save()
-        } catch {
-            print("Erro ao salvar item: \(error)")
-        }
+        save()
     }
 
     func update(_ item: DataItem) {
-        do {
-            try context.save()
-        } catch {
-            print("Erro ao atualizar item: \(error)")
-        }
+        save()
     }
 
     func delete(_ item: DataItem) {
         context.delete(item)
-        do {
-            try context.save()
-        } catch {
-            print("Erro ao deletar item: \(error)")
-        }
+        save()
     }
 
     func deleteAll() {
@@ -56,10 +44,14 @@ final class ItemRepository {
         for item in all {
             context.delete(item)
         }
+        save()
+    }
+
+    private func save() {
         do {
             try context.save()
         } catch {
-            print("Erro ao deletar todos: \(error)")
+            print("Erro ao salvar alterações: \(error)")
         }
     }
 }

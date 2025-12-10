@@ -20,19 +20,20 @@ struct ImplementaView: View {
         VStack {
             TextField("Digite algo", text: $savedItem)
                 .textFieldStyle(.roundedBorder)
-            
+            //adicionar ou atualiza item
             Button(selectedItem == nil ? "Adicionar item" : "Atualizar item") {
                 if let selectedItem {
                     selectedItem.name = savedItem
                     repository.update(selectedItem)
                     self.selectedItem = nil
+                    
                 } else {
                     let newItem = DataItem(name: savedItem)
                     repository.add(newItem)
                 }
                 savedItem = ""
             }
-            
+            //botao de editar
             List {
                 ForEach(items) { item in
                     HStack {
@@ -45,13 +46,14 @@ struct ImplementaView: View {
                         .buttonStyle(.borderedProminent)
                     }
                 }
+                
                 .onDelete { indexes in
                     for index in indexes {
                         repository.delete(items[index])
                     }
                 }
             }
-            
+            //botao de deletar
             Button("Deletar tudo") {
                 for item in items {
                     repository.delete(item)
