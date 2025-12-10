@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0BE36F692EA7FE9700A3F48C /* Itema */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Itema;
-			sourceTree = "<group>";
-		};
 		0BE36F7A2EA7FE9800A3F48C /* ItemaTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ItemaTests;
@@ -43,6 +38,11 @@
 		0BE36F842EA7FE9800A3F48C /* ItemaUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ItemaUITests;
+			sourceTree = "<group>";
+		};
+		816989AA2EC7587D001B2D82 /* Itema */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Itema;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		0BE36F5E2EA7FE9700A3F48C = {
 			isa = PBXGroup;
 			children = (
-				0BE36F692EA7FE9700A3F48C /* Itema */,
+				816989AA2EC7587D001B2D82 /* Itema */,
 				0BE36F7A2EA7FE9800A3F48C /* ItemaTests */,
 				0BE36F842EA7FE9800A3F48C /* ItemaUITests */,
 				0BE36F682EA7FE9700A3F48C /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0BE36F692EA7FE9700A3F48C /* Itema */,
+				816989AA2EC7587D001B2D82 /* Itema */,
 			);
 			name = Itema;
 			packageProductDependencies = (
