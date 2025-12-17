@@ -27,6 +27,7 @@
 		0BE36F672EA7FE9700A3F48C /* Itema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13B6CB12EE0BE6500C2EB60 /* Itema.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Itema.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +89,13 @@
 				0BE36F672EA7FE9700A3F48C /* Itema.app */,
 				0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */,
 				0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13B6CBE2EE0BE6500C2EB60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,6 +206,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0BE36F682EA7FE9700A3F48C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B13B6CBE2EE0BE6500C2EB60 /* Products */;
+					ProjectRef = B13B6CB12EE0BE6500C2EB60 /* Itema.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0BE36F662EA7FE9700A3F48C /* Itema */,

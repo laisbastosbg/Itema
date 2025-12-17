@@ -1,15 +1,35 @@
 import SwiftUI
 
-struct ContentView: View {
+struct EmptyStateView: View {
     var body: some View {
-        // Usando o componente TagCard 
-        TagCard(tag: TagCardViewStockTag(imageName: "iconeDaTag", name: "Nome da Tag"))
-            .padding() // Espaçamento opcional
+        VStack(spacing: 12) {
+            
+            // Ícone opcional
+            Image(systemName: "tray")
+                .font(.system(size: 50))
+                .foregroundColor(.gray.opacity(0.6))
+            
+            // Título
+            Text("Nenhum item ainda")
+                .font(.title2)
+                .fontWeight(.semibold)
+                .foregroundColor(.primary.opacity(0.8))
+            
+            // Subtítulo
+            Text("Adicione algo para começar")
+                .font(.body)
+                .foregroundColor(.secondary)
+            
+            // Botão para ação principal
+            button("Adicionar novo item") {
+                //ação aqui
+            }
+            .buttonStyle(.borderedProminent)
+            .padding(.top, 8)
+        }
+        .padding()
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    EmptyStateView()
 }
