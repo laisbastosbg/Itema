@@ -1,15 +1,20 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    private let viewModel = ActionButtonViewModel()
+
     var body: some View {
-        // Usando o componente TagCard 
-        TagCard(tag: TagCardViewStockTag(imageName: "iconeDaTag", name: "Nome da Tag"))
-            .padding() // Espaçamento opcional
+        VStack {
+            ActionButtonRowView(viewModel: viewModel)
+            Spacer()
+        }
+        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }
+
+
