@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    private let viewModel = ActionButtonViewModel()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ActionButtonRowView(viewModel: viewModel)
+            Spacer()
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+

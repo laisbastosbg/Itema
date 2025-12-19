@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BE36F672EA7FE9700A3F48C /* Itema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Itema.app; path = "/Users/iredefbmac_20/Desktop/PedroJorge/Itema/build/Debug-iphoneos/Itema.app"; sourceTree = "<absolute>"; };
-		0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ItemaTests.xctest; path = "/Users/iredefbmac_20/Desktop/PedroJorge/Itema/build/Debug-iphoneos/Itema.app/PlugIns/ItemaTests.xctest"; sourceTree = "<absolute>"; };
-		0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ItemaUITests.xctest; path = "/Users/iredefbmac_20/Desktop/PedroJorge/Itema/build/Debug-iphoneos/ItemaUITests-Runner.app/PlugIns/ItemaUITests.xctest"; sourceTree = "<absolute>"; };
 		4216DF172EB3A08300A6D80E /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		428D12B62EF52B4200958951 /* Itema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428D12B72EF52B4200958951 /* ItemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428D12B82EF52B4200958951 /* ItemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,6 +84,9 @@
 				0BE36F692EA7FE9700A3F48C /* Itema */,
 				0BE36F7A2EA7FE9800A3F48C /* ItemaTests */,
 				0BE36F842EA7FE9800A3F48C /* ItemaUITests */,
+				428D12B62EF52B4200958951 /* Itema.app */,
+				428D12B72EF52B4200958951 /* ItemaTests.xctest */,
+				428D12B82EF52B4200958951 /* ItemaUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +112,7 @@
 			packageProductDependencies = (
 			);
 			productName = Itema;
-			productReference = 0BE36F672EA7FE9700A3F48C /* Itema.app */;
+			productReference = 428D12B62EF52B4200958951 /* Itema.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0BE36F762EA7FE9800A3F48C /* ItemaTests */ = {
@@ -132,7 +135,7 @@
 			packageProductDependencies = (
 			);
 			productName = ItemaTests;
-			productReference = 0BE36F772EA7FE9800A3F48C /* ItemaTests.xctest */;
+			productReference = 428D12B72EF52B4200958951 /* ItemaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		0BE36F802EA7FE9800A3F48C /* ItemaUITests */ = {
@@ -155,7 +158,7 @@
 			packageProductDependencies = (
 			);
 			productName = ItemaUITests;
-			productReference = 0BE36F812EA7FE9800A3F48C /* ItemaUITests.xctest */;
+			productReference = 428D12B82EF52B4200958951 /* ItemaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
