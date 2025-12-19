@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Itema
-//
-//  Created by Lais Godinho on 21/10/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -16,10 +9,12 @@ struct ContentView: View {
             ActionButtonRowView(viewModel: viewModel)
             Spacer()
         }
+        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
 
