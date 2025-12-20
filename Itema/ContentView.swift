@@ -2,14 +2,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // Usando o componente TagCard 
-        TagCard(tag: TagCardViewStockTag(imageName: "iconeDaTag", name: "Nome da Tag"))
-            .padding() // Espaçamento opcional
+        TagsView()
+            
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TagsView()
     }
 }

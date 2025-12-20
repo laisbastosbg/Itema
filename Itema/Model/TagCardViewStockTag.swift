@@ -17,7 +17,7 @@ struct TagCard: View {
     
     var body: some View {
         VStack {
-            Image(tag.imageName)
+            Image(systemName: tag.imageName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 60, height: 60)
